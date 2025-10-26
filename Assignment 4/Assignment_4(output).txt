@@ -1,0 +1,35 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\Assignment 4\" ; if ($?) { g++ Assignment_4.cpp -o Assignment_4 } ; if ($?) { .\Assignment_4 }
+STEP 1) Initial Road Costs
+
+Road Segment Travel Times:
+Intersection 6 <-> 5 : 3 min
+Intersection 5 <-> 4 : 6 min
+Intersection 5 <-> 3 : 2 min
+Intersection 4 <-> 1 : 10 min
+Intersection 3 <-> 2 : 5 min
+Intersection 2 <-> 1 : 5 min
+
+STEP 2) Initial Optimal Path:
+Optimal Path: Intersection 1 -> Intersection 2 -> Intersection 3
+Total travel time: 10 min
+Segment details:
+  1 -> 2 : 5 min
+  2 -> 3 : 5 min
+
+STEP 3) Real-time Traffic Simulation: Increase cost 2 <-> 3 to 20 min
+
+Road Segment Travel Times:
+Intersection 6 <-> 5 : 3 min
+Intersection 5 <-> 4 : 6 min
+Intersection 5 <-> 3 : 2 min
+Intersection 4 <-> 1 : 10 min
+Intersection 3 <-> 2 : 20 min
+Intersection 2 <-> 1 : 5 min
+
+STEP 4) Real-time Optimal Path:
+Optimal Path: Intersection 1 -> Intersection 4 -> Intersection 5 -> Intersection 3
+Total travel time: 18 min
+Segment details:
+  1 -> 4 : 10 min
+  4 -> 5 : 6 min
+  5 -> 3 : 2 min

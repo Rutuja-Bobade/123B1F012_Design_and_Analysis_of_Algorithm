@@ -1,0 +1,12 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\Assignment 5\" ; if ($?) { g++ Assignment_5.cpp -o Assignment_5 } ; if ($?) { .\Assignment_5 }
+Best costs from Stage-0 nodes:
+Node 0: cost = 7
+Path from 0 : 0 -> 3 -> 6 -> 7
+Total route cost (sum edges): 7
+
+Updating cost of edge (3, 6) from 2 to 99 to force path change...
+
+After update, best costs from Stage-0 nodes:
+Node 0: cost = 20
+Path from 0 : 0 -> 2 -> 5 -> 7
+Total route cost (sum edges): 20

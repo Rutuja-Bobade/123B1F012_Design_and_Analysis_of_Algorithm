@@ -1,0 +1,29 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\" ; if ($?) { g++ Assignment_1.cpp -o Assignment_1 } ; if ($?) { .\Assignment_1 }
+Unsorted Orders:
+Customer Name   | Timestamp
+---------------------------------------------
+Alice           | Mon Oct 21 14:10:00 2024
+Bob             | Sun Oct 20 10:23:20 2024
+Charlie         | Tue Oct 22 04:03:20 2024
+David           | Sat Oct 19 06:36:40 2024
+Ella            | Tue Oct 22 17:56:40 2024
+
+
+Merge Sorted Orders:
+Customer Name   | Timestamp
+---------------------------------------------
+David           | Sat Oct 19 06:36:40 2024
+Bob             | Sun Oct 20 10:23:20 2024
+Alice           | Mon Oct 21 14:10:00 2024
+Charlie         | Tue Oct 22 04:03:20 2024
+Ella            | Tue Oct 22 17:56:40 2024
+
+
+Bubble Sorted Orders:
+Customer Name   | Timestamp
+---------------------------------------------
+David           | Sat Oct 19 06:36:40 2024
+Bob             | Sun Oct 20 10:23:20 2024
+Alice           | Mon Oct 21 14:10:00 2024
+Charlie         | Tue Oct 22 04:03:20 2024
+Ella            | Tue Oct 22 17:56:40 2024

@@ -1,0 +1,11 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\" ; if ($?) { g++ Assignment_3.cpp -o Assignment_3 } ; if ($?) { .\Assignment_3 }
+Boat Capacity: 50 kg
+Selected Supplies:
+Item           Taken     Weight    Value     
+---------------------------------------------
+MedicineKit    100%      10        100       
+Water          100.00    %20.00     40.00     
+Food           66.67     %20.00     30.00     
+
+Total weight loaded: 50.00 kg
+Total utility value: 170.00

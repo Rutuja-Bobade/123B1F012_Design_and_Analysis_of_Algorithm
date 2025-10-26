@@ -1,0 +1,69 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\" ; if ($?) { g++ Assignment_2.cpp -o Assignment_2 } ; if ($?) { .\Assignment_2 }
+
+Sort Movies by:
+1. IMDB Rating
+2. Release Year
+3. Popularity
+4. Exit
+Enter choice (1-4): 1
+Title                              Rating      Year        Popularity  
+----------------------------------------------------------------------
+Once Upon a Time in Hollywood 14   10          1993        159845      
+Back to the Future 1               10          2004        77490       
+Black Panther 5                    10          2017        400764      
+Oldboy 7                           10          2016        131989      
+The Dark Knight 8                  10          1996        252427      
+Back to the Future 10              10          1995        522195      
+Whiplash 17                        9.9         1999        247446      
+Alien 3                            9.9         1995        323131      
+Avengers: Endgame 6                9.9         2012        539144      
+Blade Runner 2049 6                9.9         1992        554630      
+... (990 more movies not shown)
+
+Sort Movies by:
+1. IMDB Rating
+2. Release Year
+3. Popularity
+4. Exit
+Enter choice (1-4): 2
+Title                              Rating      Year        Popularity  
+----------------------------------------------------------------------
+WALL┬╖E 4                          1.2         2024        422627      
+Pulp Fiction 16                    1.5         2024        792116      
+The Pianist 4                      9.8         2024        496025      
+Spirited Away 3                    9.6         2024        345541      
+The Big Short 5                    2.1         2024        684093
+Se7en 15                           8.4         2024        331031
+Back to the Future 5               8           2024        575837
+The Wolf of Wall Street 16         7.9         2024        281063
+Django Unchained 12                6.8         2024        888169
+Pulp Fiction 14                    6.2         2024        6835
+... (990 more movies not shown)
+
+Sort Movies by:
+1. IMDB Rating
+2. Release Year
+3. Popularity
+4. Exit
+Enter choice (1-4): 3
+Title                              Rating      Year        Popularity
+----------------------------------------------------------------------
+The Matrix 5                       8.1         2005        998278
+Terminator 2: Judgment Day 8       5.7         1992        998171
+Up 1                               5.8         1987        997800
+The Green Mile 10                  7.2         1993        997248
+Goodfellas 5                       5.1         2021        996126
+Knives Out 16                      5.4         1994        994855
+The Dark Knight 3                  6.1         2004        994798
+Saving Private Ryan 17             2.8         2018        993525
+The Empire Strikes Back 9          5.1         2020        993403
+1917 5                             8.5         1982        992469
+... (990 more movies not shown)
+
+Sort Movies by:
+1. IMDB Rating
+2. Release Year
+3. Popularity
+4. Exit
+Enter choice (1-4): 4
+Exiting Movie Recommender.
