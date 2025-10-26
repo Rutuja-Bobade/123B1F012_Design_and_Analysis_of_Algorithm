@@ -17,21 +17,16 @@ vector<Movie> readMoviesCSV(const string &filename) {
     vector<Movie> movies;
     ifstream file(filename);
     string line;
-    // Skip header
     getline(file, line);
     while (getline(file, line)) {
         istringstream iss(line);
         Movie m;
         string field;
-        // Title
         getline(iss, m.title, ',');
-        // Rating
         getline(iss, field, ',');
         m.rating = stod(field);
-        // Year
         getline(iss, field, ',');
         m.releaseYear = stoi(field);
-        // Popularity
         getline(iss, field, ',');
         m.popularity = stod(field);
 
@@ -99,7 +94,7 @@ int main() {
         cout << "Enter choice (1-4): ";
         cin >> choice;
 
-        bool descending = true; // Sort high to low
+        bool descending = true; 
 
         switch (choice) {
             case 1:
