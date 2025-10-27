@@ -1,0 +1,1 @@
+This repository contains all lab assignments, programs for the Design and Analysis of Algorithm (DAA) course .These assignment demonstrates key algorithmic techniques such as Divide and Conquer, Greedy Approach, Dynamic Programming, Backtracking, Branch & Bound and Graph Algorithms.
