@@ -1,0 +1,6 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA> cd "c:\Users\Lenovo\OneDrive\Desktop\Learning\DSA\DAA\Assignment 6\" ; if ($?) { g++ Assignment_6.cpp -o Assignment_6 } ; if ($?) { .\Assignment_6 }
+Max utility value attainable: 220
+Items to include in relief truck:
+  - Blankets (Wt: 30kg, Utility: 120)
+  - Food (Wt: 20kg, Utility: 100, Perishable)
+Total weight: 50kg
